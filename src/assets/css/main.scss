@@ -1,0 +1,104 @@
+@import 'global/null';
+@import 'global/variables';
+@import 'global/fonts';
+
+@import 'styles/header';
+@import 'styles/course';
+@import 'styles/mentors';
+@import 'styles/master';
+@import 'styles/computer';
+@import 'styles/pricing';
+@import 'styles/confidence';
+@import 'styles/questions';
+@import 'styles/footer';
+
+* {
+	font-family: 'Manrope';
+}
+
+body {
+	color: var(--black);
+}
+
+.section {
+	padding: 45px 40px;
+	background: var(--cream);
+	overflow: hidden;
+
+	@media (max-width: 768px) {
+		padding: 20px;
+	}
+}
+
+.section-course {
+	background: var(--white);
+	padding-top: 34px;
+}
+
+.section-master {
+	background: var(--white);
+}
+
+.section-footer {
+	padding-bottom: 0;
+}
+
+.title {
+	font-weight: 800;
+	font-size: 45px;
+	line-height: 130%;
+	text-transform: uppercase;
+	text-align: center;
+
+	@media (max-width: 992px) {
+		font-size: 30px;
+	}
+
+	@media (max-width: 768px) {
+		font-size: 18px;
+	}
+}
+
+.subtitle {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 140%;
+
+	@media (max-width: 992px) {
+		font-size: 18px;
+	}
+}
+
+.text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 140%;
+
+	@media (max-width: 992px) {
+		font-size: 16px;
+	}
+}
+
+.orange-text {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 130%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--orange-light);
+
+	@media (max-width: 992px) {
+		font-size: 16px;
+	}
+}
+
+.btn {
+	border-radius: 5px;
+	background: var(--orange);
+	font-weight: 700;
+	font-size: 18px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

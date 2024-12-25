@@ -1,0 +1,32 @@
+.questions {
+	max-width: 1360px;
+	margin: auto;
+
+	.title {
+		margin: 21px 0 50px;
+	}
+
+	&-cards {
+		display: flex;
+		flex-direction: column;
+		gap: 19px;
+	}
+
+	&-card {
+		border-radius: 30px;
+		padding: 30px;
+		background: var(--white);
+		position: relative;
+
+		.subtitle {
+			margin-bottom: 15px;
+			max-width: 90%;
+		}
+
+		&-icon {
+			position: absolute;
+			top: 30px;
+			right: 30px;
+		}
+	}
+}
